@@ -1,13 +1,15 @@
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Nav from "./components/Nav";
+import Footer from './components/Footer'
+import Routing from './components/Routing'
+import React from "react";
+
 
 function App() {
   return (
     <>
-      <Header/>
-      <Main/>
-      <Footer/>
+      <Nav />
+      <Routing />
+      <Footer />
     </>
   );
 }
