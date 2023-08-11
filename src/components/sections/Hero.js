@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <header >
       <article className="bg-[#495e57] text-white w-full flex md:flex-row flex-col items-center ">
-        <section className="pl-10 py-10 pr-32 md:pr-0 md:w-[40%] md:pl-20">
+        <section className="pl-10 py-10  md:pr-0 md:w-[40%] md:pl-20">
           <h1 className='text-4xl font-serif'>Little Lemon</h1>
           <h2 className='text-3xl font-serif'>Chicago</h2>
           <p className="text-start py-3 ">We are a family owned Mediterranean restaurant, located on  Maldove Street in Chicago, Illionis. We focus

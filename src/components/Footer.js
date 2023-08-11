@@ -31,45 +31,6 @@ const Footer = () => {
           </div>
           <div class="md:w-1/4 w-full px-4 grid py-5">
             <h1 className="text-xl">Connect With Us</h1>
-            <nav class="flex justify-center py-5  md:justify-normal">
-            
-            </nav>
-          </div>
-
-        </div>
-      </div>
-      
-     
-    </footer>
-
-
-  )
-}
-
-export default Footer
-/*<menu className='grid grid-cols-1  sm:grid-cols-2 md:grid-cols-4 md:py-10'>
-          <div className='flex justify-center pt-5 sm:justify-end sm:pr-16 '>
-            <img alt="footer img" src={require("../assets/footer-logo.png")} className='w-24 h-40'/>
-          </div>
-          <ul className='text-left px-8 grid pt-4 gap-2'>
-            <h1 className='text-2xl font-bold pb-4'>Navigation</h1>
-            <Link to='/' className='font-semibold hover:underline' >Home</Link>
-            <Link to='/about' className='font-semibold hover:underline' >About</Link>
-            <Link to='/menu' className='font-semibold hover:underline' >Menu</Link>
-            <Link to='/reservation' className='font-semibold hover:underline' >Redervation</Link>
-            <Link to='/order' className='font-semibold hover:underline' >Order</Link>
-            <Link to='/login' className='font-semibold hover:underline' >Login</Link>
-          </ul>
-          <ul className='text-left px-8 pt-4 grid gap-2'>
-            <h1 className='text-2xl font-bold pb-4'>Contact Us</h1>
-            <li>2395 Maldove Way, Chicago Illinois</li>
-            <li>(629)-243-6827</li>
-            <a href="mailto: info@littlelemon.com" target="blank">
-              info@littlelemon.com
-            </a>
-          </ul>
-          <ul className='text-center pt-4 pb-9 md:text-left'>
-            <h1 className="text-xl">Connect With Us</h1>
             <div className="flex gap-3 justify-center sm:grid sm:gap-4 md:justify-start">
               <a
                 className='text-blue-500'
@@ -96,5 +57,16 @@ export default Footer
                 Youtube
               </a>
             </div>
-          </ul>
-        </menu>*/
+          </div>
+
+        </div>
+      </div>
+      
+     
+    </footer>
+
+
+  )
+}
+
+export default Footer
