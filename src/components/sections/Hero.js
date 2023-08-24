@@ -14,7 +14,7 @@ const Hero = () => {
         </section>
         <section className="hidden md:block md:w-1/2  mx-auto md:-mb-72 ">
             <img src={require('../../assets/food/food1.png')} alt="Little Lemon restaurant cuisine" 
-            className='h-[400px]  md:w-[320px] mx-auto'/>
+            className='h-[400px]  md:w-[320px] mx-auto transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-110  duration-300'/>
         </section>
 
       </article>

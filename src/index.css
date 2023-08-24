@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
+.nav-item{
+    @apply font-bold flex font-serif justify-center py-6 text-lg md:no-underline md:py-5 visited:bg-red-700
+     hover:bg-[#f4ce14] 
+}
 @tailwind utilities;

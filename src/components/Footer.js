@@ -15,7 +15,7 @@ const Footer = () => {
             <Link to='/' className='font-semibold hover:underline' >Home</Link>
             <Link to='/about' className='font-semibold hover:underline' >About</Link>
             <a href={require("../assets/menu.webp")} target='blank'Name='font-semibold hover:underline'>Menu</a>
-            <Link to='/reservation' className='font-semibold hover:underline' >Redervation</Link>
+            <Link to='/reservation' className='font-semibold hover:underline' >Reservation</Link>
             <Link to='/order' className='font-semibold hover:underline' >Order</Link>
             <Link to='/login' className='font-semibold hover:underline' >Login</Link>
           </div>

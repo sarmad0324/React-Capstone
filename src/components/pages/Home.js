@@ -5,14 +5,14 @@ import Abtsite from '../sections/Abtsite'
 
 const Home = () => {
   return (
-    <>
+    <div className='scroll-auto'>
       <Hero/>
       <main>
         <Special />
         <Testimonial/>
         <Abtsite/>
       </main>
-    </>
+    </div>
   )
 }
 

@@ -19,12 +19,12 @@ const Nav = () => {
       </div>
 
       <ul className={`${nav ? 'block': 'hidden md:grid md:grid-cols-6 items-center md:w-4/5'}  `}>
-        <Link to='/'  className='font-bold flex font-serif justify-center py-6 text-lg md:no-underline md:py-5  hover:bg-[#f4ce14]'>Home</Link>
-        <Link to='/about' className='font-bold flex font-serif justify-center py-6 text-lg md:no-underline md:py-5  hover:bg-[#f4ce14]'>About</Link>
-        <a href={require("../assets/menu.webp")} target='blank' className='font-bold flex font-serif justify-center py-6 text-lg md:no-underline md:py-5  hover:bg-[#f4ce14]'>Menu</a>
-        <Link to='/reservation' className='font-bold flex font-serif justify-center py-6 text-lg md:no-underline md:py-5  hover:bg-[#f4ce14]'>Reservation</Link>
-        <Link to='/order' className='font-bold flex font-serif justify-center py-6 text-lg md:no-underline md:py-5  hover:bg-[#f4ce14]'>Order</Link>
-        <Link to='/login' className='font-bold flex font-serif justify-center py-6 text-lg md:no-underline md:py-5  hover:bg-[#f4ce14]'>Login</Link>
+        <Link to='/' className='nav-item'>Home</Link>
+        <Link to='/about' className='nav-item'>About</Link>
+        <a href={require("../assets/menu.webp")} target='blank' className='nav-item'>Menu</a>
+        <Link to='/reservation' className='nav-item'>Reservation</Link>
+        <Link to='/order' className='nav-item'>Order</Link>
+        <Link to='/login' className='nav-item'>Login</Link>
       </ul>
     </nav>
   )
