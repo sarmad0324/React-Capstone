@@ -1,8 +1,8 @@
 import { useState } from "react";
-
-import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 export default function Booking() {
+    const navigate = useNavigate();
     const [fName, setFName] = useState("");
     const [lName, setLName] = useState("");
     const [email, setEmail] = useState("");
@@ -12,6 +12,8 @@ export default function Booking() {
     const [occasion, setOccasion] = useState("");
     const [preferences, setPreferences] = useState("");
     const [comments, setComments] = useState("");
+    const formValid= (date && occasion && people)
+    
 
     const clearForm = () => { 
         setFName(""); 
@@ -20,14 +22,14 @@ export default function Booking() {
         setDate(""); 
         setLName("")
         setTel("")
-        setDate("")
         setPeople("")
         setOccasion("")
         setPreferences("")
       }; 
     function handleSubmit(e){
         e.preventDefault(); 
-        if(fName && email && tel && people && date && date){
+        if(fName && email && tel && people && date ){
+            navigate('/confirmation');
             clearForm()
         }else{
             alert("kindly fill all the details")
@@ -197,10 +199,7 @@ export default function Booking() {
                                 </p>
                             </small>
                             <br />
-                       
-                                <Link to='/conformation' className="bg-red-600 px-4 py-2" type="submit">Book a table</Link>
-              
-                            
+                            <button disabled={!formValid} className="disabled:cursor-not-allowed py-2 px-5 hover:bg-slate-400 bg-slate-600 text-white">Make Your Reservation</button>
                         </div>
 
                     </div>
